@@ -1,0 +1,369 @@
+﻿@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+@font-face{
+    font-family: 'FonteLogo';
+    
+src: url("../_fonts/bubblegum-sans-regular.otf");
+
+}
+
+body{
+
+	background-color: #E1097D;
+
+	color: #0F100E;
+
+}
+
+
+p {
+
+    text-align: justify;
+
+    text-indent: 50px;
+
+}
+
+
+nav#menu {
+
+    display: block;
+
+}
+
+nav#menu ul{
+
+    list-style: none;
+
+    text-transform: uppercase;
+
+    position: absolute;
+
+    top: 100px;
+
+    left: 300px;
+
+}
+
+nav#menu li{
+
+    display: inline-block;
+
+    background-color: #EDDD08;
+
+    padding: 10px;
+
+    margin: 2px;
+
+    transition: background-color 1s;
+
+}
+
+nav#menu li:hover{
+
+    background-color: #F4FA58;
+
+}
+
+nav#menu a{
+
+    color: black;
+
+    text-decoration: none;
+
+}
+
+nav#menu a:hover{
+
+    color: #E1097D;
+
+    text-decoration: underline;
+
+}
+
+/*formatacão interface*/
+
+div#interface {
+
+    width: 900px;
+
+    background-color: #ffffff;
+
+    margin: -20px auto auto auto;
+
+    padding: 20px;
+
+    box-shadow: 0px 0px 50px rgba(250, 250, 210, .7);
+
+}
+
+/*formatação cabeçalho*/
+
+header#cabecalho{
+
+    border-bottom: 1px #0F100E solid;
+
+    height: 200px;
+    
+background: url("../_imagens/logoSite.png") no-repeat 700px 0px;
+
+    background-color: #DA81F5;
+
+    
+}
+
+header#cabecalho h1{
+
+    font-family: FonteLogo, sans-serif;
+
+    font-size: 30pt;     color: #0F100E;
+
+    text-shadow: 1px 1px 1px rgba(250, 250, 210, 0.7);
+
+    padding: 0px;
+    margin-top: 0px;
+        margin-left: 10px;
+
+    margin-bottom: 0px;
+
+}
+
+header#cabecalho h2{
+
+    font-family: 'Titillium Web', sans-serif;
+        color: #0F100E;
+
+    font-size: 15pt;
+
+    padding: 0px;
+
+    margin-top: 0px;
+
+    margin-left: 10px;
+
+}
+
+/*formatação corpo*/
+
+hgroup#caminho h3{
+
+    font-family: 'Titillium Web', sans-serif;
+
+    color: #0F100E;
+
+    font-size: 15pt;
+        padding: 0px;
+
+    margin: 0px;
+
+    margin-top: 0px;
+
+    margin-bottom: 1px;
+
+}
+
+hgroup#caminho h4{
+
+    font-family: 'Titillium Web', sans-serif;
+
+    color: #0F100E;
+
+    font-size: 10pt;
+
+    text-align: right;
+
+    border-bottom: 1px #0F100E solid;
+
+}
+
+section#corpo{
+
+    display: block;
+
+    width: 850px;
+
+}
+
+section#corpo div#video{
+
+    width: 900px;
+        height: 500px;
+
+    background: url("../_imagens/radio-tv.png") no-repeat;
+
+}
+
+section#corpo video#filme{
+
+    display: block;
+
+    position: relative;
+
+    left: 87px;
+
+    top: 120px;
+
+    width: 450px;
+
+}
+
+section#corpo h1{
+
+    font-family: FonteLogo, sans-serif;
+
+    font-size: 30pt;
+
+    color: #0F100E;
+
+    text-shadow: 2px 2px 5px #EDDD08;
+
+    background-color: yellow;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+section#corpo h2{
+
+    font-family: FonteLogo, sans-serif;
+     color: #0F100E;
+
+    font-size: 15pt;
+
+    padding: 0px;
+
+    text-shadow: 1px 1px 1px rgba(250, 250, 210, 0.7);
+
+}section#corpo h3{
+
+    font-family: FonteLogo, sans-serif;
+
+    color: #0F100E;
+
+    margin: 2px;
+
+    margin-top: 10px;
+
+}
+
+table#tabelaestilo{
+
+    border: 1px solid #0F100E;
+
+    border-spacing: 0px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+table#tabelaestilo td{
+
+    border: 1px solid #0F100E;
+
+    padding: 20px;
+
+    vertical-align: middle;
+        background-color: #DA81F5;
+
+    font-weight: bold;
+
+}
+
+table#tabelaestilo caption{
+
+    color: #0F100E;
+
+    font-size: 20pt;
+     font-weight: bold;
+
+}
+
+
+form#formulario {
+
+    margin: auto;
+
+} 
+
+
+form#formulario legend{
+
+    color: #0F100E;
+
+    font-weight: bold;
+
+    font-size: 13pt;
+
+    font-family: sans-serif;
+
+}
+
+
+/*formatção rodape*/
+
+footer#rodape {
+
+    clear: both;
+        border-top: 1px #0F100E solid;
+
+    background-color: #DA81F5;
+
+    height: 100px;
+
+}
+
+footer#rodape p{
+
+    text-align: center;
+
+}
+
+/*formatação fale-conosco*/
+
+form#msg {
+
+	width: 500px;
+
+	margin: auto;
+
+}
+
+fieldset#mensagem{
+
+	background: url('../_imagens/icone-mensagem.png') no-repeat 100% 100%;
+
+}
+
+textarea#cMsg{
+
+	background-color: rgba(105, 105, 105, .7);
+
+}
+
+input, textarea{
+ 
+	font-family: sans-serif;
+
+	font-weight: normal;
+
+	font-size: 13pt;
+	        background-color: rgba(255, 255, 255, .3);
+
+}
+
+legend#msg{
+
+	color: #0F100E;
+
+	font-weight: bold;
+
+	font-size: 13pt;
+	        font-family: sans-serif;
+
+}

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+form#fContato{
+	width: 400px;
+	height: 210px;
+	margin: auto;
+	background-color: #ffffff;
+	margin-top: 50px;
+}
+fieldset#usuario{
+	width: 200px;
+	margin: auto;
+
+}
+fieldset#usuario{
+	color: #4285f4;
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bold;
+}
+fieldset#usuario p{
+	color: #4285f4;
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+}
+.btn{
+	font-family: arial;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: #e86929;
+	color: #ffffff;
+	border: none;
+	padding: 5px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	width:300px;
+}
+.btn:hover{
+	background-color: #FF4500;
+}

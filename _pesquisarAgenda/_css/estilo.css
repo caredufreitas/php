@@ -1,0 +1,38 @@
+@charset "utf8";
+body{
+	background-color: #262626;
+	
+}
+div#interface{
+	width: 900px;
+	height: 500px;
+	background-color: #f1f1f1;
+	margin: 20px auto 0px auto;
+	padding: 10px;
+	box-shadow: 0px 0px 10px #161b2f;
+}
+div#interface header#button{
+	display: block;
+	position: relative;
+	margin-top: 100px;
+	margin-left: 60px;
+}
+button {
+	display:block;
+	width: 800px;
+	height: 50px;
+	overflow: hidden;
+	background-color: red;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+footer#rodape{
+	clear: both;
+	height: 70px;
+	background-color: #262626;
+}
+footer#rodape p{
+	color: #f1f1f1;
+	text-align: left;
+}
